@@ -2,7 +2,7 @@
 user login and registration
 # Register api
 Type : POST
-URL : "/register"
+URL : "/user/register"
 sample input : {
     "username":"jainaman2",
     "firstname":"aman",
@@ -17,7 +17,7 @@ sample output :
 
 # login api
 Type : POST
-URL : "/login"
+URL : "/user/login"
 Sample input :
 {
     "Username":"jainaman",
@@ -39,7 +39,7 @@ Sample output :
 
 # userinfo api
 Type : GET
-URL :"/userinfo"
+URL :"/user/userinfo"
 Header : "Authorization"
 Output : {
     "id": "65ccce3575756c4d9e30e0b5",
